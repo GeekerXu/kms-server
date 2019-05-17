@@ -12,6 +12,7 @@ mkdir -p /home/docker/dockerfile-kms-server && cd /home/docker/dockerfile-kms-se
 3.下载dockerfile 文件
 
 wget https://raw.githubusercontent.com/GeekerXu/kms-server/master/dockerfile
+
 wget https://github.com/GeekerXu/kms-server/blob/master/vlmcsdmulti-x64-musl-static
 
 
