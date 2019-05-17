@@ -1,5 +1,5 @@
 FROM 	alpine:latest
-MAINTAINER      GeekerXu "flyxuchao@gmail.com"
+MAINTAINER      GeekerXu@"flyxuchao@gmail.com"
 
 RUN	cd /tmp/
 RUN	wget https://github.com/Wind4/vlmcsd/releases/download/svn1112/binaries.tar.gz
