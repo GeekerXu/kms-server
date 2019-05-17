@@ -11,7 +11,8 @@ mkdir -p /home/docker/dockerfile-kms-server && cd /home/docker/dockerfile-kms-se
 
 3.下载dockerfile 文件
 
-wget https://github.com/GeekerXu/kms-server/blob/master/dockerfile
+wget https://raw.githubusercontent.com/GeekerXu/kms-server/master/dockerfile
+
 
 4.创建镜像
 
