@@ -2,5 +2,5 @@ FROM 	alpine:latest
 MAINTAINER      GeekerXu@"flyxuchao@gmail.com"
 
 ADD vlmcsdmulti-x64-musl-static /usr/local/bin/
-CMD vlmcsdmulti-x64-musl-static vlmcsd -L 0.0.0.0:1688 -e -D
 EXPOSE 	1688
+CMD [ "/usr/local/bin/vlmcsdmulti-x64-musl-static", "-D" ]
