@@ -15,3 +15,8 @@ wget https://github.com/GeekerXu/kms-server/blob/master/dockerfile
 
 4.创建镜像
 
+docker build -t geekerxu/kms-server:latest
+
+5.启动容器
+
+docker run -d -p 1688:1688 --restart=always --name kms-server geekerxu/kms-server
