@@ -13,8 +13,6 @@ mkdir -p /home/docker/dockerfile-kms-server && cd /home/docker/dockerfile-kms-se
 
 wget https://raw.githubusercontent.com/GeekerXu/kms-server/master/dockerfile
 
-wget https://github.com/GeekerXu/kms-server/blob/master/vlmcsdmulti-x64-musl-static
-
 
 4.创建镜像
 
