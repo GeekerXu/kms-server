@@ -16,7 +16,7 @@ wget https://raw.githubusercontent.com/GeekerXu/kms-server/master/dockerfile
 
 4.创建镜像
 
-docker build -t geekerxu/kms-server:latest
+docker build -t geekerxu/kms-server:latest .
 
 5.启动容器
 
